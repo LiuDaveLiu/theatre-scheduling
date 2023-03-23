@@ -32,7 +32,7 @@ dependencies:
   - ply=3.11=py_1
   - pyomo=5.6.9=py38h32f6830_2
   - pyparsing=2.4.7=pyh9f0ad1d_0
-  - pyqt=5.12.3=py38h7ae7562_3
+  - pyqt=5.12.3
   - python=3.8.3=he1778fa_0
   - python-dateutil=2.8.1=py_0
   - python_abi=3.8=1_cp38

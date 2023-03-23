@@ -34,7 +34,8 @@ class TheatreScheduler:
         Returns:
             (dict): dictionary with CaseID as key and median case time (mins) for procedure as value
         """
-        return pd.Series(self.df_cases["Median Duration"].values, index=self.df_cases["CaseID"]).to_dict()
+        #return pd.Series(self.df_cases["Median Duration"].values, index=self.df_cases["CaseID"]).to_dict()
+        return pd.Series(self.df_cases["Expected Duration"].values, index=self.df_cases["CaseID"]).to_dict()
 
     def _generate_session_durations(self):
         """
@@ -258,5 +259,5 @@ if __name__ == "__main__":
 
     options = {"seconds": 300}
     scheduler = TheatreScheduler(case_file_path=case_path, session_file_path=session_path)
-    scheduler.solve(solver_name="cbc", solver_path=cbc_path, options=options)
-    #scheduler.solve(solver_name="cbc", local=False, options=None)
+    #scheduler.solve(solver_name="cbc", solver_path=cbc_path, options=options)
+    scheduler.solve(solver_name="cbc", local=False, options=None)
