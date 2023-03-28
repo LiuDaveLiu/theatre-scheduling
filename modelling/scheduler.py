@@ -255,7 +255,7 @@ class TheatreScheduler:
 if __name__ == "__main__":
     case_path = os.path.join(os.path.dirname(os.getcwd()), "data", "cases.csv")
     session_path = os.path.join(os.path.dirname(os.getcwd()), "data", "sessions.csv")
-    cbc_path = "C:\\Program Files\\Cbc-refactor-win64-msvc16-mtd\\bin\\cbc.exe"
+    cbc_path = "C:\\Program Files\\Cbc-releases.2.10.8-w64-msvc16-md\\bin\\cbc.exe"
 
     options = {"seconds": 300}
     scheduler = TheatreScheduler(case_file_path=case_path, session_file_path=session_path)
