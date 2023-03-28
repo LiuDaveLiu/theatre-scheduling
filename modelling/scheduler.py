@@ -255,9 +255,9 @@ class TheatreScheduler:
 if __name__ == "__main__":
     case_path = os.path.join(os.path.dirname(os.getcwd()), "data", "cases.csv")
     session_path = os.path.join(os.path.dirname(os.getcwd()), "data", "sessions.csv")
-    cbc_path = "C:\\Users\\LONLW15\\Documents\\Linear Programming\\Solvers\\cbc.exe"
+    cbc_path = "C:\\Program Files\\Cbc-refactor-win64-msvc16-mtd\\bin\\cbc.exe"
 
     options = {"seconds": 300}
     scheduler = TheatreScheduler(case_file_path=case_path, session_file_path=session_path)
-    #scheduler.solve(solver_name="cbc", solver_path=cbc_path, options=options)
-    scheduler.solve(solver_name="cbc", local=False, options=None)
+    scheduler.solve(solver_name="cbc", solver_path=cbc_path, options=options)
+    #scheduler.solve(solver_name="cbc", local=False, options=None)
