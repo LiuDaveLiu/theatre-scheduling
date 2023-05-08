@@ -1,7 +1,7 @@
-SessionID,Date,Start,End,Duration,ConsultantID,Specialty
-1,6/4/2023,7:00:00,18:00:00,570,11,Ophthalmology
-2,6/4/2023,7:00:00,18:00:00,570,11,Ophthalmology
-3,6/4/2023,7:00:00,18:00:00,570,11,Ophthalmology
-4,6/4/2023,7:00:00,18:00:00,270,11,Ophthalmology
-5,6/4/2023,7:00:00,18:00:00,570,11,Ophthalmology
-6,6/4/2023,7:00:00,18:00:00,270,11,Ophthalmology
+SessionID,Date,Start,End,Duration,ConsultantID,Specialty,DurationNew
+1,4/7/2023 0:00,7:00:00,18:00:00,675,11,Ophthalmology,675
+2,4/7/2023 0:00,7:00:00,18:00:00,675,11,Ophthalmology,510
+3,4/7/2023 0:00,7:00:00,18:00:00,675,11,Ophthalmology,620
+4,4/7/2023 0:00,7:00:00,18:00:00,675,11,Ophthalmology,600
+5,4/7/2023 0:00,7:00:00,18:00:00,675,11,Ophthalmology,615
+6,4/7/2023 0:00,7:00:00,18:00:00,675,11,Ophthalmology,600
