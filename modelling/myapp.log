@@ -1,0 +1,677 @@
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+INFO:root:[  0 100  99  98  97  96  95  94  93  92  91  90  89  88  87 101  86  84
+  83  82  81  80  79  78  77  76  75  74  73  72  71  85 102 103 104 135
+ 134 133 132 131 130 129 128 127 126 125 124 123 122 121 120 119 105 106
+ 107 108 109 110  70 111 113 114 115 116 117 118 112  69  68  67  31  30
+  29  28  27  26  25  24  23  22  21  20  19  18  17  16  15   1   2   3
+   4   5   6  32   7   9  10  11  12  13  14   8 136  33  35  66  65  64
+  63  62  61  60  59  58  57  56  55  54  53  52  51  50  36  37  38  39
+  40  41  34  42  44  45  46  47  48  49  43 137]
+WARNING:pyomo.core:Constant objective detected, replacing with a placeholder to prevent solver failure.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+INFO:root:[  0 100  99  98  97  96  95  94  93  92  91  90  89  88  87 101  86  84
+  83  82  81  80  79  78  77  76  75  74  73  72  71  85 102 103 104 135
+ 134 133 132 131 130 129 128 127 126 125 124 123 122 121 120 119 105 106
+ 107 108 109 110  70 111 113 114 115 116 117 118 112  69  68  67  31  30
+  29  28  27  26  25  24  23  22  21  20  19  18  17  16  15   1   2   3
+   4   5   6  32   7   9  10  11  12  13  14   8 136  33  35  66  65  64
+  63  62  61  60  59  58  57  56  55  54  53  52  51  50  36  37  38  39
+  40  41  34  42  44  45  46  47  48  49  43 137]
+WARNING:pyomo.core:Constant objective detected, replacing with a placeholder to prevent solver failure.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+INFO:root:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12]
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+INFO:root:[[<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA580>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA5E0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA640>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA6A0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA700>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA760>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAE80>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAEE0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAF40>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAFA0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC040>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC0A0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC100>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC160>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC1C0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC220>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC280>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC2E0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC340>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC3A0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC400>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC460>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC4C0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC520>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACE80>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACEE0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACF40>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACFA0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD040>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD0A0>, 1], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACC40>, 2], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACCA0>, 2], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACD00>, 2], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACD60>, 2], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACDC0>, 2], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACE20>, 2], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAA00>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAA60>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAAC0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAB20>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAB80>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AABE0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE100>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE160>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE1C0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE220>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE280>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE2E0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE580>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE5E0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE640>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE6A0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE700>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE760>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE7C0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE820>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE880>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE8E0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE940>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE9A0>, 3], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACA00>, 4], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACA60>, 4], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACAC0>, 4], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACB20>, 4], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACB80>, 4], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ACBE0>, 4], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADE80>, 5], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADEE0>, 5], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADF40>, 5], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADFA0>, 5], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE040>, 5], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE0A0>, 5], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD340>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD3A0>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD400>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD460>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD4C0>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD520>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE340>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE3A0>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE400>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE460>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE4C0>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AE520>, 6], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA7C0>, 7], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA820>, 7], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA880>, 7], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA8E0>, 7], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA940>, 7], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AA9A0>, 7], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD7C0>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD820>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD880>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD8E0>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD940>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD9A0>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADC40>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADCA0>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADD00>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADD60>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADDC0>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADE20>, 8], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAC40>, 9], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AACA0>, 9], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAD00>, 9], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAD60>, 9], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AADC0>, 9], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AAE20>, 9], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC580>, 10], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC5E0>, 10], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC640>, 10], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC6A0>, 10], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC700>, 10], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC760>, 10], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC7C0>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC820>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC880>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC8E0>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC940>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AC9A0>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD580>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD5E0>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD640>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD6A0>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD700>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD760>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADA00>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADA60>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADAC0>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADB20>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADB80>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08ADBE0>, 11], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD100>, 12], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD160>, 12], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD1C0>, 12], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD220>, 12], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD280>, 12], [<pyomo.core.base.var._GeneralVarData object at 0x0000020BF08AD2E0>, 12]]
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+ERROR:pyomo.core:Rule failed when generating expression for objective OBJECTIVE:
+TypeError: Attempting to form a compound inequality with two upper bounds
+
+        The inequality expression:
+            CASE_START_TIME[0,3] - 420 - 60  <  CASE_START_TIME[0,1] - 420 - 60
+        contains non-constant terms (variables) that were evaluated in an
+        unexpected Boolean context at
+          File 'C:\Users\lliu10\OneDrive - Inside MD Anderson\Documents\GitHub\theatre-scheduling\modelling\scheduler_mda.py', line 212:
+    arr.sort()
+
+        Evaluating Pyomo variables in a Boolean context, e.g.
+            if expression <= 5:
+        is generally invalid.  If you want to obtain the Boolean value of the
+        expression based on the current variable values, explicitly evaluate the
+        expression using the value() function:
+            if value(expression) <= 5:
+        or
+            if value(expression <= 5):
+        
+ERROR:pyomo.core:Constructing component 'OBJECTIVE' from data=None failed:
+TypeError: Attempting to form a compound inequality with two upper bounds
+
+        The inequality expression:
+            CASE_START_TIME[0,3] - 420 - 60  <  CASE_START_TIME[0,1] - 420 - 60
+        contains non-constant terms (variables) that were evaluated in an
+        unexpected Boolean context at
+          File 'C:\Users\lliu10\OneDrive - Inside MD Anderson\Documents\GitHub\theatre-scheduling\modelling\scheduler_mda.py', line 212:
+    arr.sort()
+
+        Evaluating Pyomo variables in a Boolean context, e.g.
+            if expression <= 5:
+        is generally invalid.  If you want to obtain the Boolean value of the
+        expression based on the current variable values, explicitly evaluate the
+        expression using the value() function:
+            if value(expression) <= 5:
+        or
+            if value(expression <= 5):
+        
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+INFO:root:[<pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A16376C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A164D600>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A164D140>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29AD600>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9440>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9C40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9900>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E93C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9B80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9980>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9CC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E97C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9880>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9100>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E94C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9D00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9D40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9C80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9D80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9DC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9E00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9E40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9E80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9EC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9F00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9F40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9F80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A29E9FC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05040>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05080>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A050C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05100>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05140>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A051C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05200>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05240>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05280>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A052C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05300>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05340>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05380>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A053C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05400>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05440>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05480>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A054C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05500>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05540>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05580>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A055C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05600>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05640>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05680>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A056C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05700>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05740>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05780>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A057C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05800>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05840>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05880>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A058C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05900>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05940>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05980>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A059C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05A00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05A40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05A80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05AC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05B00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05B40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05B80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05BC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05C40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05CC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05D40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05DC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05E40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05EC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05F40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A05FC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07080>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07100>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07200>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07280>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07300>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07380>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07400>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07480>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07500>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07580>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07600>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07680>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07700>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07780>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07800>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07880>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07900>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07980>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07A00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07A80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07B00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07B80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07C00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07C80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07D00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07D80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07E00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07E80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07F00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A07F80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09040>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A090C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09140>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A091C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09240>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A092C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09340>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A093C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09440>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A094C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09540>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A095C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09640>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A096C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09740>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A097C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09840>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A098C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09940>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A099C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09A40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09AC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09B40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x000001D1A2A09BC0>]
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+INFO:root:[<pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B6293A580>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B6663B540>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B667288C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66728980>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66643AC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A17100>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A17840>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A18E00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A18F40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B669F5EC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19080>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19040>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19200>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19340>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A193C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19300>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19240>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19440>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19140>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19280>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A194C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19500>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19540>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19580>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A195C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19600>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19640>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19680>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A196C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19700>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19740>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19780>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A197C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19800>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19840>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19880>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A198C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19900>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19940>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19980>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A199C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19A00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19A40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19A80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19AC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19B00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19B40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19B80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19BC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19C00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19C40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19C80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19CC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19D00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19D40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19D80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19DC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19E00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19E40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19E80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19EC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19F00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19F40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19F80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A19FC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34040>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34080>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A340C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34100>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34140>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A341C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34200>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34240>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A342C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34340>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A343C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34440>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A344C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34540>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A345C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34640>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A346C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34740>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A347C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34840>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A348C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34940>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A349C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34A40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34AC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34B40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34BC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34C40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34CC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34D40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34DC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34E40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34EC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34F40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A34FC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36080>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36100>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36200>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36280>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36300>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36380>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36400>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36480>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36500>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36580>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36600>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36680>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36700>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36780>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36800>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36880>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36900>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36980>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36A00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36A80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36B00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36B80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36C00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36C80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36D00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36D80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36E00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36E80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36F00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A36F80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A38040>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A380C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A38140>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A381C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000025B66A38240>]
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+INFO:root:[<pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F88431280>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4C6180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EAD80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EAB00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB4C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB080>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB2C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB640>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB280>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB400>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB6C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB1C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB600>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB700>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB0C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB680>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB740>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB780>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB7C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB800>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB840>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB880>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB8C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB900>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB940>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB980>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EB9C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBA00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBA40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBA80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBAC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBB00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBB40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBB80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBBC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBC00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBC40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBC80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBCC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBD00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBD40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBD80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBDC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBE00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBE40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBE80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBEC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBF00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBF40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBF80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D4EBFC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505040>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505080>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5050C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505100>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505140>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5051C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505200>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505240>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505280>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5052C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505300>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505340>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505380>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5053C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505400>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505440>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505480>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5054C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505500>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505540>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505580>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5055C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505640>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5056C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505740>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5057C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505840>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5058C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505940>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5059C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505A40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505AC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505B40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505BC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505C40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505CC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505D40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505DC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505E40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505EC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505F40>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D505FC0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507080>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507100>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507180>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507200>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507280>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507300>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507380>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507400>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507480>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507500>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507580>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507600>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507680>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507700>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507780>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507800>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507880>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507900>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507980>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507A00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507A80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507B00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507B80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507C00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507C80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507D00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507D80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507E00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507E80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507F00>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D507F80>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D509040>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5090C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D509140>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5091C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D509240>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5092C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D509340>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5093C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D509440>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5094C0>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D509540>, <pyomo.core.expr.numeric_expr.SumExpression object at 0x0000024F8D5095C0>]
+WARNING:pyomo.core:Loading a SolverResults object with an 'aborted' status, but containing a solution
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Rule failed when generating expression for objective OBJECTIVE:
+TypeError: Argument for expression is an indexed numeric value
+specified without an index:
+	INVERSIONS
+Is this value defined over an index that you did not specify?
+ERROR:pyomo.core:Constructing component 'OBJECTIVE' from data=None failed:
+TypeError: Argument for expression is an indexed numeric value
+specified without an index:
+	INVERSIONS
+Is this value defined over an index that you did not specify?
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Constructing component 'INVERTS' from data=None failed:
+ValueError: Invalid constraint expression. The constraint expression resolved to a trivial Boolean (False) instead of a Pyomo object. Please modify your rule to return Constraint.Infeasible instead of False.
+
+Error thrown for Constraint 'INVERTS[0,1]'
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Rule failed when generating expression for constraint INVERTS with index 0:
+TypeError: inversion() missing 1 required positional argument: 'session'
+ERROR:pyomo.core:Constructing component 'INVERTS' from data=None failed:
+TypeError: inversion() missing 1 required positional argument: 'session'
+WARNING:py.warnings:C:\Users\lliu10\AppData\Local\Temp\ipykernel_18116\1721461989.py:24: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all axes decorations. 
+  fig.tight_layout()
+
+WARNING:py.warnings:C:\Users\lliu10\AppData\Local\Temp\ipykernel_18116\3319056518.py:24: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all axes decorations. 
+  fig.tight_layout()
+
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+ERROR:pyomo.core:Rule failed when generating expression for constraint INVERTS with index 0:
+TypeError: inversion() missing 1 required positional argument: 'session'
+ERROR:pyomo.core:Constructing component 'INVERTS' from data=None failed:
+TypeError: inversion() missing 1 required positional argument: 'session'
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Rule failed when generating expression for objective OBJECTIVE:
+TypeError: 'float' object is not callable
+ERROR:pyomo.core:Constructing component 'OBJECTIVE' from data=None failed:
+TypeError: 'float' object is not callable
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+WARNING:pyomo.core:DEPRECATED: Chained inequalities are deprecated. Use the inequality()
+function to express ranged inequality expressions.
+ERROR:pyomo.gdp:Rule failed when generating expression for disjunction DISJUNCTIONS_RULE_SHO with index (0, 4, 1, 2):
+TypeError: Relational expression used in an unexpected Boolean context.
+
+        The inequality expression:
+            CASE_START_TIME[0,1]  <=  CASE_START_TIME[4,2] + (2 - SESSION_ASSIGNED[0,1] - SESSION_ASSIGNED[4,2])*1440000.0
+        contains non-constant terms (variables) that were evaluated in an
+        unexpected Boolean context at
+          File 'C:\Users\lliu10\OneDrive - Inside MD Anderson\Documents\GitHub\theatre-scheduling\modelling\scheduler_mda.py', line 282:
+    return [(model.CASE_START_TIME[case1, session1] <= model.CASE_START_TIME[case2, session2] + \
+
+        Evaluating Pyomo variables in a Boolean context, e.g.
+            if expression <= 5:
+        is generally invalid.  If you want to obtain the Boolean value of the
+        expression based on the current variable values, explicitly evaluate the
+        expression using the value() function:
+            if value(expression) <= 5:
+        or
+            if value(expression <= 5):
+        
+ERROR:pyomo.core:Constructing component 'DISJUNCTIONS_RULE_SHO' from data=None failed:
+TypeError: Relational expression used in an unexpected Boolean context.
+
+        The inequality expression:
+            CASE_START_TIME[0,1]  <=  CASE_START_TIME[4,2] + (2 - SESSION_ASSIGNED[0,1] - SESSION_ASSIGNED[4,2])*1440000.0
+        contains non-constant terms (variables) that were evaluated in an
+        unexpected Boolean context at
+          File 'C:\Users\lliu10\OneDrive - Inside MD Anderson\Documents\GitHub\theatre-scheduling\modelling\scheduler_mda.py', line 282:
+    return [(model.CASE_START_TIME[case1, session1] <= model.CASE_START_TIME[case2, session2] + \
+
+        Evaluating Pyomo variables in a Boolean context, e.g.
+            if expression <= 5:
+        is generally invalid.  If you want to obtain the Boolean value of the
+        expression based on the current variable values, explicitly evaluate the
+        expression using the value() function:
+            if value(expression) <= 5:
+        or
+            if value(expression <= 5):
+        
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Constructing component 'DISJUNCTIONS_RULE_SHO' from data=None failed:
+ValueError: Unexpected term for Disjunction DISJUNCTIONS_RULE_SHO[0,4,1,2].
+	Expected a Disjunct object, relational expression, or iterable of
+	relational expressions but got <class 'bool'>
+	in <class 'list'>
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.gdp:Rule failed when generating expression for disjunction DISJUNCTIONS_RULE_SHO with index (0, 4, 1, 2):
+TypeError: unsupported operand type(s) for &: 'InequalityExpression' and 'bool'
+ERROR:pyomo.core:Constructing component 'DISJUNCTIONS_RULE_SHO' from data=None failed:
+TypeError: unsupported operand type(s) for &: 'InequalityExpression' and 'bool'

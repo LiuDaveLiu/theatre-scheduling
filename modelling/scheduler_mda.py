@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import pyomo.environ as pe
 import pyomo.gdp as pyogdp
 import re
@@ -6,6 +7,10 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 from matplotlib.ticker import MaxNLocator
 from itertools import product
+import pdb
+import logging
+
+logging.basicConfig(filename='myapp.log', level=logging.INFO)
 
 class TheatreScheduler:
     def __init__(self, case_file_path, session_file_path):
@@ -50,6 +55,15 @@ class TheatreScheduler:
             (dict): dictionary with CaseID as key and median case time (mins) for procedure as value
         """
         return pd.Series(self.df_cases["Scheduled Room Duration"].values, index=self.df_cases["CaseID"]).to_dict()
+#         return pd.Series(self.df_cases_g["Scheduled Room Duration"].values, index=self.df_cases_g["CaseID"]).to_dict()
+
+    def _generate_case_durations_rank(self):
+        """
+        Generate mapping of cases IDs to median case time for the procedure
+        Returns:
+            (dict): dictionary with CaseID as key and median case time (mins) for procedure as value
+        """
+        return pd.Series(self.df_cases["Scheduled Room Duration"].rank(method='dense').astype('int'), index=self.df_cases["CaseID"]).to_dict()
 #         return pd.Series(self.df_cases_g["Scheduled Room Duration"].values, index=self.df_cases_g["CaseID"]).to_dict()
 
     def _generate_session_durations(self):
@@ -152,8 +166,13 @@ class TheatreScheduler:
         model.SURGEONS = pe.Set(initialize=self.df_cases["SurgeonID"].tolist())
         # List of tasks - all possible (caseID, sessionID) combination
         model.TASKS = pe.Set(initialize=model.CASES * model.SESSIONS, dimen=2)
+        
+        model.TEST = pe.Set(initialize = [0])
+        
         # The duration (median case time) for each operation
         model.CASE_DURATION = pe.Param(model.CASES, initialize=self._generate_case_durations())
+        # The duration (median case time) for each operation
+        model.CASE_DURATION_RANK = pe.Param(model.CASES, initialize=self._generate_case_durations_rank())
         # The duration of each theatre session
         model.SESSION_DURATION = pe.Param(model.SESSIONS, initialize=self._generate_session_durations())
         # The start time of each theatre session
@@ -172,16 +191,45 @@ class TheatreScheduler:
         num_cases = self.df_cases.shape[0]
 
         # Decision Variables
-        model.SESSION_ASSIGNED = pe.Var(model.TASKS, domain=pe.Binary)
-        model.CASE_START_TIME = pe.Var(model.TASKS, bounds=(0, ub), within=pe.PositiveReals)
+        model.SESSION_ASSIGNED = pe.Var(model.TASKS, domain=pe.Binary, initialize = 1)
+        # model.CASE_START_TIME = pe.Var(model.TASKS, bounds=(420, ub), within=pe.PositiveReals, initialize = 420)
+        model.CASE_START_TIME = pe.Var(model.TASKS, bounds=(0, ub), within=pe.PositiveReals, initialize = 0.1)
         model.CASES_IN_SESSION = pe.Var(model.SESSIONS, bounds=(0, num_cases), within=pe.PositiveReals)
-
+        # model.INVERSIONS = pe.Var(model.TEST, bounds=(0, num_cases), within=pe.PositiveReals)
+        
+        def getInvCount(arr):
+            n = len(arr)
+            inv_count = 0
+            for i in range(1,n):
+                if (arr[i-1][0]() > arr[i][0]()) and (arr[i-1][1] > arr[i][1]):
+                    inv_count += 1
+            # pdb.set_trace()
+            return inv_count
+        
+        def test(arr):
+            # pdb.set_trace()
+            return sum(arr)
+        
         # Objective
         def objective_function(model):
+            # arr = [[model.CASE_START_TIME[case, session], model.CASE_DURATION_RANK[case]] for case in model.CASES for session in model.SESSIONS if model.SESSION_ASSIGNED[case, session]]
+            # # arr.sort()
+            # logging.info(arr)
+            # return pe.summation(model.CASES_IN_SESSION) - sum(arr)
+            
             return pe.summation(model.CASES_IN_SESSION)
-#             return sum([model.SESSION_ASSIGNED[case, session] for case in model.CASES for session in model.SESSIONS])
+            
+            # return pe.summation(model.CASES_IN_SESSION)-getInvCount(arr)
+            
+            # arr=[model.SESSION_ASSIGNED[case, session]*model.CASE_DURATION[case] for case in model.CASES for session in model.SESSIONS]
+            # return test(arr)
+            # arr = sorted([[model.CASE_START_TIME[case, session], model.CASE_DURATION_RANK[case]] for case in model.CASES for session in model.SESSIONS if model.SESSION_ASSIGNED[case, session]])
+            # arr = np.argsort([model.CASE_START_TIME[case, session]() for case in model.CASES for session in model.SESSIONS if model.SESSION_ASSIGNED[case, session]()==1])
+            # arr1 = [model.CASE_DURATION_RANK[case] for case in model.CASES for session in model.SESSIONS if model.SESSION_ASSIGNED[case, session]()]
+            # return sum(arr)
+            # return arr
         model.OBJECTIVE = pe.Objective(rule=objective_function, sense=pe.maximize)
-
+              
         # Constraints
 
         # Case start time must be after start time of assigned theatre session
@@ -210,7 +258,6 @@ class TheatreScheduler:
                     ((2 - model.SESSION_ASSIGNED[case1, session1] - model.SESSION_ASSIGNED[case2, session2])*model.M),
                     model.CASE_START_TIME[case2, session2] + model.CASE_DURATION[case2] <= model.CASE_START_TIME[case1, session1] + \
                     ((2 - model.SESSION_ASSIGNED[case1, session1] - model.SESSION_ASSIGNED[case2, session2])*model.M)]
-            
         model.DISJUNCTIONS_RULE_SUR = pyogdp.Disjunction(model.DISJUNCTIONS_SUR, rule=no_surg_overlap)
         
         def no_case_overlap(model, case1, case2, session):
@@ -223,8 +270,20 @@ class TheatreScheduler:
         def theatre_util(model, session):
             return model.CASES_IN_SESSION[session] == \
                    sum([model.SESSION_ASSIGNED[case, session] for case in model.CASES])
-
         model.THEATRE_UTIL = pe.Constraint(model.SESSIONS, rule=theatre_util)
+        
+        def inversion(model, case, session):
+            arr = sorted([[model.CASE_START_TIME[case, session], model.CASE_DURATION_RANK[case]] for case in model.CASES for session in model.SESSIONS if model.SESSION_ASSIGNED[case, session]])
+            return model.INVERSIONS == \
+                   getInvCount(arr)
+        # model.INVERTS = pe.Constraint(model.TEST, rule=inversion)
+        
+        def short_first(model, case1, case2, session1, session2):
+            return [(model.CASE_START_TIME[case1, session1] <= model.CASE_START_TIME[case2, session2] + \
+                    ((2 - model.SESSION_ASSIGNED[case1, session1] - model.SESSION_ASSIGNED[case2, session2])*model.M)) & (model.CASE_DURATION[case1] <= model.CASE_DURATION[case2]),
+                    (model.CASE_START_TIME[case2, session2] <= model.CASE_START_TIME[case1, session1] + \
+                    ((2 - model.SESSION_ASSIGNED[case1, session1] - model.SESSION_ASSIGNED[case2, session2])*model.M)) & (model.CASE_DURATION[case2] <= model.CASE_DURATION[case1])]
+        model.DISJUNCTIONS_RULE_SHO = pyogdp.Disjunction(model.DISJUNCTIONS_SUR, rule=short_first)
 
         pe.TransformationFactory("gdp.bigm").apply_to(model)
 
@@ -258,6 +317,7 @@ class TheatreScheduler:
                    for (case, session) in self.model.TASKS]
 
         self.df_times = pd.DataFrame(results)
+        self.iter_num = iter_num
 
         all_cases = self.model.CASES.value_list
         cases_assigned = []
@@ -275,15 +335,17 @@ class TheatreScheduler:
         print("Number of constraints = {}".format(solver_results["Problem"].__getitem__(0)["Number of constraints"]))
         #self.model.SESSION_ASSIGNED.pprint()
         print(self.df_times[self.df_times["Assignment"] == 1].to_string())
-        self.draw_gantt(iter_num)
+        self.draw_gantt()
 #         self.draw_gantt_surgeon(iter_num)
 
-    def draw_gantt(self,iter_num):
+    def draw_gantt(self):
         df = self.df_times[self.df_times["Assignment"] == 1]
         cases = sorted(list(df['Case'].unique()))
         sessions = sorted(list(df['Session'].unique()))
-        bar_style = {'alpha': 1.0, 'lw': 6, 'solid_capstyle': 'butt'}
-        text_style = {'color': 'white', 'ha': 'center', 'va': 'center'}
+        # bar_style = {'alpha': 1.0, 'lw': 6, 'solid_capstyle': 'butt'}
+        # text_style = {'color': 'white', 'ha': 'center', 'va': 'center'}
+        bar_style = {'alpha': 1.0, 'lw': 24, 'solid_capstyle': 'butt'}
+        text_style = {'color': 'white', 'weight': 'bold', 'ha': 'center', 'va': 'center'}
         colors = cm.Dark2.colors
 
         df.sort_values(by=['Case', 'Session'])
@@ -298,11 +360,12 @@ class TheatreScheduler:
                     ax.plot([xs, xf], [s] * 2, c=colors[self.df_cases[self.df_cases["CaseID"] == c]['SurgeonID'].item() % len(colors)], **bar_style)
                     ax.text((xs + xf) / 2, s, self.df_cases[self.df_cases["CaseID"] == c]["Primary Surgeon Name"].item()[:2], **text_style)
 
-#         ax.set_title('Mays OR (Optimized)')
-        ax.set_title('Iterations: '+str(iter_num))
+        ax.set_title('Mays OR (Optimized)')
+        # ax.set_title('Iterations: '+str(self.iter_num))
         ax.set_xlabel('Time')
-        ax.set_xlim([7, 24])
-        ax.set_ylim([0, max(sessions)+1])
+        # ax.set_xlim([7, 24])
+        ax.set_xlim([7, 18.25])
+        # ax.set_ylim([0, max(sessions)+1])
         ax.set_ylabel('OR')
         ax.yaxis.set_major_locator(MaxNLocator(integer=True))
         fig.tight_layout()
