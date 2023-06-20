@@ -675,3 +675,238 @@ ERROR:pyomo.gdp:Rule failed when generating expression for disjunction DISJUNCTI
 TypeError: unsupported operand type(s) for &: 'InequalityExpression' and 'bool'
 ERROR:pyomo.core:Constructing component 'DISJUNCTIONS_RULE_SHO' from data=None failed:
 TypeError: unsupported operand type(s) for &: 'InequalityExpression' and 'bool'
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Constructing component 'DISJUNCTIONS_RULE_SHO' from data=None failed:
+ValueError: Unexpected term for Disjunction DISJUNCTIONS_RULE_SHO[0,4,1,2].
+	Expected a Disjunct object, relational expression, or iterable of
+	relational expressions but got <class 'list'>
+	in <class 'list'>
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Constructing component 'DISJUNCTIONS_RULE_SHO' from data=None failed:
+ValueError: Unexpected term for Disjunction DISJUNCTIONS_RULE_SHO[0,4,1,2].
+	Expected a Disjunct object, relational expression, or iterable of
+	relational expressions but got <class 'bool'>
+	in <class 'list'>
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Constructing component 'DISJUNCTIONS_RULE_SHO' from data=None failed:
+ValueError: Unexpected term for Disjunction DISJUNCTIONS_RULE_SHO[0,4,1,2].
+	Expected a Disjunct object, relational expression, or iterable of
+	relational expressions but got <class 'bool'>
+	in <class 'list'>
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Loading a SolverResults object with an 'aborted' status, but containing a solution
+WARNING:pyomo.core:Loading a SolverResults object with an 'aborted' status, but containing a solution
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Rule failed when generating expression for constraint SESSION_ASSIGNMENT_1 with index (0, 1):
+KeyError: "Index '0' is not valid for indexed component 'CASE_NO'"
+ERROR:pyomo.core:Constructing component 'SESSION_ASSIGNMENT_1' from data=None failed:
+KeyError: "Index '0' is not valid for indexed component 'CASE_NO'"
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Constructing component 'SESSION_ASSIGNMENT_1' from data=None failed:
+ValueError: Invalid constraint expression. The constraint expression resolved to a trivial Boolean (True) instead of a Pyomo object. Please modify your rule to return Constraint.Feasible instead of True.
+
+Error thrown for Constraint 'SESSION_ASSIGNMENT_1[0,1]'
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+ERROR:pyomo.core:Rule failed when generating expression for constraint SESSION_ASSIGNMENT_1 with index (0, 1):
+AttributeError: 'TheatreScheduler' object has no attribute 'CASE_NO'
+ERROR:pyomo.core:Constructing component 'SESSION_ASSIGNMENT_1' from data=None failed:
+AttributeError: 'TheatreScheduler' object has no attribute 'CASE_NO'
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Loading a SolverResults object with an 'aborted' status, but containing a solution
+WARNING:pyomo.core:Loading a SolverResults object with an 'aborted' status, but containing a solution
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 6 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 10 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 8 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 3 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 7 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.
+WARNING:pyomo.core:Element 0 already exists in set SURGEONS; no action taken.

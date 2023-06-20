@@ -128,7 +128,6 @@ class TheatreScheduler:
         for (case1, case2, session) in product(cases, cases, sessions):
             if (case1 != case2) and (case2, case1, session) not in disjunctions:
                 disjunctions.append((case1, case2, session))
-
         return disjunctions
     
     def _generate_disjunctions_sur(self):
@@ -279,11 +278,16 @@ class TheatreScheduler:
         # model.INVERTS = pe.Constraint(model.TEST, rule=inversion)
         
         def short_first(model, case1, case2, session1, session2):
-            return [(model.CASE_START_TIME[case1, session1] <= model.CASE_START_TIME[case2, session2] + \
-                    ((2 - model.SESSION_ASSIGNED[case1, session1] - model.SESSION_ASSIGNED[case2, session2])*model.M)) & (model.CASE_DURATION[case1] <= model.CASE_DURATION[case2]),
-                    (model.CASE_START_TIME[case2, session2] <= model.CASE_START_TIME[case1, session1] + \
-                    ((2 - model.SESSION_ASSIGNED[case1, session1] - model.SESSION_ASSIGNED[case2, session2])*model.M)) & (model.CASE_DURATION[case2] <= model.CASE_DURATION[case1])]
-        model.DISJUNCTIONS_RULE_SHO = pyogdp.Disjunction(model.DISJUNCTIONS_SUR, rule=short_first)
+            disjunct_A = [model.CASE_DURATION[case1] <= model.CASE_DURATION[case2],
+                          model.CASE_START_TIME[case1, session1] <= model.CASE_START_TIME[case2, session2] + ((2 - model.SESSION_ASSIGNED[case1, session1] - model.SESSION_ASSIGNED[case2, session2])*model.M)]
+            disjunct_B = [model.CASE_DURATION[case1] >= model.CASE_DURATION[case2]]
+            # disjunct_C = [model.CASE_DURATION[case2] <= model.CASE_DURATION[case1],
+            #               model.CASE_START_TIME[case2, session2] <= model.CASE_START_TIME[case1, session1] + ((2 - model.SESSION_ASSIGNED[case1, session1] - model.SESSION_ASSIGNED[case2, session2])*model.M)]
+            # disjunct_D = [model.CASE_DURATION[case2] >= model.CASE_DURATION[case1]]
+            # return [[disjunct_A, disjunct_B], [disjunct_C, disjunct_D]]
+            return [disjunct_A, disjunct_B]
+                    
+        # model.DISJUNCTIONS_RULE_SHO = pyogdp.Disjunction(model.DISJUNCTIONS_SUR, rule=short_first)
 
         pe.TransformationFactory("gdp.bigm").apply_to(model)
 
