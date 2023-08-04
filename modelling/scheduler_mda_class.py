@@ -348,6 +348,7 @@ class TheatreScheduler:
         #self.model.SESSION_ASSIGNED.pprint()
         print(self.df_times[self.df_times["Assignment"] == 1].to_string())
         self.draw_gantt()
+        return len(cases_assigned)
 #         self.draw_gantt_surgeon(iter_num)
 
     def draw_gantt(self):
